@@ -1,0 +1,10 @@
+LICENSE.txt
+esrom.desktop
+setup.py
+ESROM.egg-info/PKG-INFO
+ESROM.egg-info/SOURCES.txt
+ESROM.egg-info/dependency_links.txt
+ESROM.egg-info/entry_points.txt
+ESROM.egg-info/requires.txt
+ESROM.egg-info/top_level.txt
+esrom/esrom.py

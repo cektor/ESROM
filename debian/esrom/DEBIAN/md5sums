@@ -1,0 +1,13 @@
+a69f0d233288858b9337f12f4d67fc53  usr/bin/esrom
+2369cc368602fe35e3a0b380a9a2f28e  usr/bin/esrom.py
+3b8c1823b3cef825e509a8447ca72927  usr/lib/python3.11/dist-packages/ESROM-1.0.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3.11/dist-packages/ESROM-1.0.egg-info/dependency_links.txt
+b3b5a0a436e6a90a6e5a2b52a229f68f  usr/lib/python3.11/dist-packages/ESROM-1.0.egg-info/entry_points.txt
+acb8c0b44bc616e1ca3d2a7b588c32c2  usr/lib/python3.11/dist-packages/ESROM-1.0.egg-info/requires.txt
+72f45e6acda1eb2f4d4ac9cdb42e7e93  usr/lib/python3.11/dist-packages/ESROM-1.0.egg-info/top_level.txt
+079c72c86e2ebc02527e7f0929186008  usr/lib/python3.11/dist-packages/esrom/__pycache__/esrom.cpython-311.pyc
+2fb91daf3229239ca57a7c7c9c719142  usr/lib/python3.11/dist-packages/esrom/esrom.py
+71e62b9f09f96a1decd13ccdbdaa038c  usr/share/applications/esrom.desktop
+1da82c6e6157d0554d5ac3c23183cc58  usr/share/doc/esrom/changelog.Debian.gz
+71dd9ffd3e5d80d31c0c5ab6016ff0ac  usr/share/doc/esrom/copyright
+52eda37ef7562e52c3e9e1c0151f1709  usr/share/icons/hicolor/48x48/apps/esromlo.png

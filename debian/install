@@ -1,0 +1,4 @@
+#!/bin/bash
+esrom.py usr/bin/
+esrom.desktop usr/share/applications/
+debian/esromlo.png /usr/share/icons/hicolor/48x48/apps/
