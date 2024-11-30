@@ -80,7 +80,7 @@ Install ESROM
 sudo git clone https://github.com/cektor/ESROM.git
 ```
 ```bash
-cd Runner
+cd ESROM
 ```
 
 ```bash
