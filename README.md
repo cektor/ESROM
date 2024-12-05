@@ -1,3 +1,7 @@
+<a href="https://github.com/pedromxavier/flag-badges">
+    <img src="https://raw.githubusercontent.com/pedromxavier/flag-badges/main/badges/TR.svg" alt="made in TR">
+</a>
+
 # ESROM
 This application allows you to convert between text and Morse code, and also allows you to listen to Morse code by voice. It has a graphical user interface and is cross-platform.
 
