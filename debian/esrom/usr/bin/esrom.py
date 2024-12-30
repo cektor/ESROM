@@ -97,6 +97,17 @@ def get_logo_path():
         return "/System/Library/Sounds/esromlo.png"
     return "esromlo.png"  # Default logo
 
+def get_icon_path():
+    """Simge dosyasının yolunu döndürür."""
+    if hasattr(sys, "_MEIPASS"):
+        return os.path.join(sys._MEIPASS, "esromlo.png")
+    elif os.path.exists("/usr/share/icons/hicolor/48x48/apps/esromlo.png"):
+        return "/usr/share/icons/hicolor/48x48/apps/esromlo.png"
+    return None
+
+LOGO_PATH = get_logo_path()
+ICON_PATH = get_icon_path()
+
 
 class MorseTranslatorApp(QMainWindow):
     def __init__(self):
@@ -240,7 +251,7 @@ class MorseTranslatorApp(QMainWindow):
         """Hakkında bilgisi gösterir."""
         about_dialog = QDialog(self)
         about_dialog.setWindowTitle("Hakkında")
-        about_dialog.setFixedSize(400, 300)
+        about_dialog.setFixedSize(400, 400)
 
         about_layout = QDialogLayout()
 
@@ -310,6 +321,8 @@ class MorseTranslatorApp(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
+    if ICON_PATH:
+        app.setWindowIcon(QIcon(ICON_PATH))
     window = MorseTranslatorApp()
     window.show()
     sys.exit(app.exec_())

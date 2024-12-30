@@ -251,7 +251,7 @@ class MorseTranslatorApp(QMainWindow):
         """Hakkında bilgisi gösterir."""
         about_dialog = QDialog(self)
         about_dialog.setWindowTitle("Hakkında")
-        about_dialog.setFixedSize(400, 300)
+        about_dialog.setFixedSize(400, 400)
 
         about_layout = QDialogLayout()
 
